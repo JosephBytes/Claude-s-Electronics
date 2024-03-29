@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <Title> Claude's Electronics </Title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <style>
+        body{
+            background-color: lightgrey;
+        }
+    </style>
+
+    <body>
+        <header>
+            <h1> Claude's Electronics</h1>
+            <h2> </h2>
+        </header>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="Phones.html"> Phones </a></li>
+                <li><a href="Headphones.html"> Headphones </a></li>
+                <li><a href="Televisions.html"> Televisions </a></li>
+                <li><a href="Giftcards.html"> Giftcards </a></li>
+                <li><div id="box1" href="Form.html"> Enjoy 5% off</li>
+            </ul>
+        </nav>
+        
+        <main>
+            <h2 class="increase"> Today's Deals </h2>
+            <div class="gallery">
+                <a href="Headphones.html">
+                    <img class="gallery" src="Media/Headphones.jpg" alt="Apple watch">
+                </a>
+                <div class="promotion"> 10% off Beats Headphones </div>
+            </div>
+
+            <div class="gallery">
+                <a href="Phones.html">
+                    <img class="gallery" src="Media/Phone.png" alt="Samsung Galaxy A14">
+                </a>
+                <div class="promotion"> 20% off Samsung Galaxy A14 </div>
+            </div>
+
+            <div class="gallery">
+                <a href="Television.html">
+                    <img class="gallery" src="Media/Tv.png" alt="Apple watch">
+                </a>
+                <div class="promotion"> $25 giftcard upon purchase </div>
+            </div>
+            <div class="gallery">
+                <a href="Giftcards.html">
+                    <img class="gallery" src="Media/Giftcard.png" alt="Apple watch">
+                </a>
+                <div class="promotion"> 10 Bonus Reward Points upon puchase of a $50 giftcard</div>
+            </div>
+
+
+
+            <div class="pagination"> <!-- pagination to make page selector-->
+                <a href="Giftcards.html"> < </a> <!-- We're in index whose previous (<) is the last link, Giftcards.html-->
+                <a href="index.html" class="active"> 1 </a>
+                <a href="Phones.html"> 2 </a>
+                <a href="Headphones.html"> 3 </a>
+                <a href="Televisions.html"> 4 </a>
+                <a href="Giftcards.html"> 5 </a>
+                <a href="Phones.html"> > </a>   <!-- We're in index whose next (>) is Phones.html -->
+            </div>
+
+            <div class="dropdown">
+                <button>Vendors</button>
+                <div class="content">
+                    <a href="https://www.apple.com/" target="_blank"> Apple </a>
+                    <a href="https://www.samsung.com/us/" target="_blank"> Samsung </a>
+                    <a href="https://www.lenovo.com/us/en/" target="_blank"> Lenovo </a>
+                    
+                </div>
+            </div>
+       </main>
+    </body>
+</html>
